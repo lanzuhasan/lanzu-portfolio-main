@@ -1,0 +1,17 @@
+@mixin flag-name {
+    padding: 5px 8px;
+    border-radius: 5px;
+    background: #283950;
+    font-weight: 600;
+    color: $font-color-1;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+@mixin dom {
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 1px;
+    background: #fff;
+    top: 17px;
+}

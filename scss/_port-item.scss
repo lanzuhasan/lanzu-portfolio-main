@@ -1,0 +1,44 @@
+@mixin port-img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+@mixin details {
+    background: #1D293A;
+    padding: 25px;
+    border-radius: 0 0 5px 5px;
+}
+@mixin details-h4 {
+    color: #DDDFE2;
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 900;
+    text-decoration: none;
+}
+@mixin details-p {
+    color: #DDDFE2;
+    font-size: 17px;
+}
+@mixin details-ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 5px;
+    display: flex;
+}
+@mixin details-ul-a {
+    color: #B1B5B8;
+    font-size: 26px;
+    margin-right: 10px;
+}
+@mixin tags {
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        padding-left: 0;
+        li {
+            color: #B1B5B8;
+            margin-right: 15px;
+        }
+    }
+}

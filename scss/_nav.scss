@@ -1,0 +1,43 @@
+.menubar {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+nav {
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.9;
+    font-family: 'lato', sans-serif;
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: all ease 0.7s;
+}
+nav ul li a:hover {
+    color: #d3d3d3;
+}
+.burger {
+    cursor: pointer;
+    display: none;
+    background:  #00CF5D;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    background: #1D293A;
+    margin: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,527 @@
+@media screen and (max-width: 992px) {
+  nav ul {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    background: #1D293A;
+    width: 100%;
+    padding-left: 0;
+    overflow: hidden;
+    z-index: 1111;
+    transition: max-height 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  nav ul li a {
+    color: #F0F2F5;
+  }
+
+  .nav-btn {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+  }
+
+  .re-btn {
+    background: #1D293A;
+  }
+
+  .burger {
+    display: inline-block;
+  }
+
+  .name {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .name-social {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .name-social ul {
+    padding-left: 0;
+  }
+
+  .name-social ul li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .name-social ul li a {
+    font-size: 22px;
+  }
+
+  .name-social ul li:first-child {
+    margin-left: 0;
+  }
+
+  .follow {
+    transform: rotate(0);
+    margin-top: 50px;
+  }
+
+  .follow p {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .follow span {
+    width: 250px;
+    margin: 0 -10%;
+  }
+
+  .about {
+    text-align: center;
+    margin-top: 150px;
+  }
+
+  .about-main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about-me {
+    width: 100%;
+  }
+
+  .about-content {
+    flex-direction: column-reverse;
+  }
+
+  .pro-img {
+    margin-top: 25px;
+  }
+
+  .me-flag {
+    transform: rotate(0);
+    position: inherit;
+    text-align: center;
+    right: inherit;
+  }
+
+  .me-flag p {
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .me-flag span {
+    width: 200px;
+    left: 36%;
+  }
+
+  .skill-flag {
+    transform: rotate(0);
+    top: 0;
+    left: 0;
+    position: inherit;
+    text-align: center;
+  }
+
+  .skill-flag p {
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .skill-flag span {
+    left: 36%;
+  }
+
+  .btn-skill {
+    margin-top: 25px;
+  }
+
+  .my-skill {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .global-btn {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  .progress-value {
+    padding: 15px 35px 0 20px;
+  }
+
+  .progress-title {
+    font-size: 20px;
+  }
+
+  .progress-value span {
+    font-size: 18px;
+  }
+
+  .progress-value .cent {
+    font-size: 18px;
+  }
+
+  .love-to-do {
+    margin-top: 150px;
+  }
+
+  .love-flex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .love-item {
+    padding-right: 0;
+    margin-top: 25px;
+  }
+
+  .items {
+    padding-bottom: 25px;
+  }
+
+  .love-flag {
+    transform: rotate(0);
+    position: inherit;
+    text-align: center;
+    right: inherit;
+  }
+
+  .love-flag p {
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .love-flag span {
+    width: 200px;
+    left: 36%;
+  }
+
+  .portfolio-flag {
+    transform: rotate(0);
+    top: 0;
+    left: 0;
+    position: inherit;
+    text-align: center;
+  }
+
+  .portfolio-flag p {
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .portfolio-flag span {
+    left: 36%;
+  }
+
+  .portfolio-items {
+    padding-left: 0;
+  }
+
+  .portfolio-button {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .gredienta {
+    margin-bottom: 25px;
+  }
+
+  .dev {
+    margin-bottom: 25px;
+  }
+
+  .phonebook-details {
+    margin-bottom: 25px;
+  }
+
+  .Quran-details {
+    margin-bottom: 25px;
+  }
+
+  .blog-details {
+    margin-bottom: 25px;
+  }
+
+  .contact {
+    margin-top: 150px;
+  }
+
+  .contact-items {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contact-item {
+    padding-right: 0;
+  }
+
+  .contact-me {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .contact-address {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .contact-address ul {
+    padding-left: 0;
+  }
+
+  .contact-flag {
+    transform: rotate(0);
+    position: inherit;
+    text-align: center;
+    right: inherit;
+  }
+
+  .contact-flag p {
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .contact-flag span {
+    width: 205px;
+    left: 35%;
+  }
+
+  .contact-address ul li h2 {
+    font-size: 26px;
+  }
+
+  .contact-address ul li p {
+    font-size: 16px;
+  }
+
+  .contact-address ul li p span {
+    font-size: 14px;
+  }
+
+  .greeting-area {
+    padding: 32px 0;
+  }
+
+  .greeting {
+    text-align: center;
+  }
+
+  .github-link {
+    margin-top: 20px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .name-me h4 {
+    font-size: 20px;
+  }
+
+  .name-me h1 {
+    font-size: 60px;
+  }
+
+  .name-me h3 {
+    font-size: 22px;
+  }
+
+  .name-me p {
+    font-size: 16px;
+  }
+
+  .name-btn-1, .name-btn-2 {
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+
+  .name-social ul li a {
+    font-size: 18px;
+  }
+
+  .me-flag span {
+    left: 31%;
+  }
+
+  .skill-flag span {
+    left: 32%;
+  }
+
+  .love-flag span {
+    left: 31%;
+  }
+
+  .portfolio-flag span {
+    left: 31%;
+  }
+
+  .contact-flag span {
+    left: 30%;
+  }
+
+  .contact-address ul li h2 {
+    font-size: 20px;
+  }
+
+  .greeting-area {
+    padding: 32px 0;
+  }
+
+  .greeting {
+    text-align: center;
+  }
+
+  .greeting ul li {
+    font-size: 15px;
+  }
+
+  .github-link {
+    justify-content: center;
+    margin-top: 35px;
+  }
+
+  .github-link {
+    margin-top: 15px;
+  }
+
+  .github-link a {
+    font-size: 15px;
+  }
+
+  .github-link h5 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .follow span {
+    width: 205px;
+    margin: 0 -9%;
+  }
+
+  .me-flag span {
+    left: 31%;
+  }
+
+  .skill-flag span {
+    left: 29%;
+  }
+
+  .love-flag span {
+    left: 31%;
+  }
+
+  .love-blog {
+    text-align: center;
+  }
+
+  .love-blog img {
+    width: 25%;
+  }
+
+  .love-blog h4 {
+    font-size: 25px;
+  }
+
+  .love-travel {
+    text-align: center;
+  }
+
+  .love-travel img {
+    width: 25%;
+  }
+
+  .love-travel h4 {
+    font-size: 25px;
+  }
+
+  .item {
+    margin-bottom: 25px;
+  }
+
+  .love-hiking {
+    text-align: center;
+  }
+
+  .love-hiking img {
+    width: 25%;
+  }
+
+  .love-hiking h4 {
+    font-size: 25px;
+  }
+
+  .love-swimming {
+    text-align: center;
+  }
+
+  .love-swimming img {
+    width: 25%;
+  }
+
+  .love-swimming h4 {
+    font-size: 25px;
+  }
+
+  .portfolio-flag span {
+    left: 31%;
+  }
+
+  .contact-flag span {
+    left: 27%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .follow span {
+    margin: 0 -11%;
+  }
+
+  .me-flag span {
+    left: 27%;
+  }
+
+  .skill-flag span {
+    left: 25%;
+  }
+
+  .love-flag span {
+    left: 27%;
+  }
+
+  .portfolio-flag span {
+    left: 27%;
+  }
+
+  .contact-flag span {
+    left: 25%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .follow span {
+    margin: 0 -16%;
+  }
+
+  .me-flag span {
+    left: 17%;
+  }
+
+  .skill-flag span {
+    left: 15%;
+  }
+
+  .love-flag span {
+    left: 17%;
+  }
+
+  .portfolio-flag span {
+    left: 17%;
+  }
+
+  .contact-flag span {
+    left: 15%;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

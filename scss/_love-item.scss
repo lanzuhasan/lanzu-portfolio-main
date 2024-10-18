@@ -1,0 +1,18 @@
+@mixin love-item {
+    background: #1D293A;
+    padding: 40px 20px;
+    border-radius: 4px;
+    height: 100%;
+}
+@mixin love-img {
+    width: 35%;
+    margin-bottom: 15px;
+}
+@mixin love-heading {
+    color: #ffffff;
+    opacity: 0.9;
+    font-weight: 900;
+    font-size: 22px;
+    justify-content: left;
+    margin-bottom: 0;
+}
